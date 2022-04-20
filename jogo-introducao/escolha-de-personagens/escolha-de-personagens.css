@@ -2,7 +2,6 @@ body {
   background-color: black;
   margin: 0;
 }
-
 .conteudo-principal-div {
   display: flex;
   width: 65%;
@@ -37,13 +36,11 @@ body {
   font-size: 200%;
   text-align: justify;
 }
-
 .botoes-personagens-div {
   display: flex;
   margin-top: 5%;
   justify-content: space-around;
   height: 40vh;
-
 }
 .botoes-personagens-div a {
   text-decoration: none;
@@ -57,7 +54,6 @@ body {
   margin: 0%;
   background-color: black;
   color: white;
-  
 }
 .botao-um {
   width: 90%;
@@ -76,7 +72,6 @@ body {
   background-image: url(./imagens-personagens/hermes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 .botao-tres {
   width: 90%;
@@ -86,12 +81,10 @@ body {
   background-image: url(./imagens-personagens/medusa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 .botao-estilo {
   border-style: solid;
   box-shadow: 5px 5px 0 grey;
-
 }
 .botao-estilo:hover {
   border-color: grey;
