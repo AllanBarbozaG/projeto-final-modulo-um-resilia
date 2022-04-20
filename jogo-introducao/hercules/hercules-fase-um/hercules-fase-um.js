@@ -7,7 +7,6 @@ function validaEntrada() {
     alert('game over!')
   } else {
     window.location.assign("/jogo-introducao/hercules/hercules-fase-um/resultado/alternativa-certa/proxima-fase.html");
-    console.log(window.location.href("proxima-fase.html"))
   }
 }
 
