@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.conteudo-principal-div {
+  display: flex;
+  width: 65%;
+  height: 80vh;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+  background: transparent url(./imagem-introducao/the-parthenon-g2bdeea62d_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 7px solid black;
+  border-radius: 25px;
+  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
+}
+.sombra-imagem {
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(223, 213, 213, 0.603);
+  border-radius: 15px;
+}
+.texto-conteudo-principal-div h1  {
+  margin-top: 3%;
+  font-size: 250%;
+  text-align: center;
+}
+.paragrafo-contexto {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2.5vw;
+  text-align: justify;
+  line-height: 130%;
+}
+.texto-conteudo-principal-div p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.botao {
+  width: 20%;
+  line-height: 250%;
+  margin-top: 6%;
+  margin-left: 77%;
+  margin-right: 3%;
+  border: none;
+  border-bottom-right-radius: 400px;
+  border-top-left-radius: 400px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.botao-estilo {
+  background-color:white;
+  box-shadow: 0 5px 0 #8f8f8f;
+}
+.botao-estilo:hover {
+  background-color: #8f8f8f;
+  box-shadow: 0 5px 0 #7e7e7e;
+}
+.botao-estilo:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
+
+  
