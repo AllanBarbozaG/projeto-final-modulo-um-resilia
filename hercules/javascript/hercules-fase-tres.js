@@ -9,9 +9,9 @@ function validaEntrada() {
     }
   } function redirecionaPagina() {
     if (decisao == '1') {
-      window.location.assign("/jogo-fases/hercules/hercules-fase-tres/alternativa-errada/game-over.html");
+      window.location.assign("/hercules/html/hercules-fase-tres-game-over.html");
     } else {
-      window.location.assign("/jogo-fases/hercules/hercules-fase-tres/alternativa-certa/hercules-final.html");
+      window.location.assign("/hercules/html/hercules-final.html");
     }
   } redirecionaPagina();
 } 

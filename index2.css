@@ -36,10 +36,12 @@ body {
   text-align: center;
 }
 .paragrafo-contexto {
+  display: flex;
+  flex-direction: column;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 2.5vw;
-  text-align: justify;
+  
   line-height: 130%;
 }
 .texto-conteudo-principal-div p {

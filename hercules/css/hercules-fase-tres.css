@@ -11,7 +11,7 @@ body {
   margin-right: auto;
   margin-top: 4%;
   margin-bottom: 4%;
-  background: transparent url(../hercules-imagens/temple-of-hercules-gff33fdab8_1920.jpg);
+  background: transparent url(../imagens/img-hercules-introducao.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 7px solid rgb(0, 0, 0);
@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 3.5%;
 }
 .botao-decisao {
   width: 20%;

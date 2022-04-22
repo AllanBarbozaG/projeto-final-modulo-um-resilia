@@ -11,7 +11,7 @@ function validaEntrada() {
     if (decisao == '1') {
       window.location.assign("/hercules/html/hercules-fase-um-game-over.html");
     } else {
-      window.location.assign("/jogo-fases/hercules/hercules-fase-dois/hercules-fase-dois.html");
+      window.location.assign("/hercules/html/hercules-fase-dois.html");
     }
   } redirecionaPagina();
 } 
