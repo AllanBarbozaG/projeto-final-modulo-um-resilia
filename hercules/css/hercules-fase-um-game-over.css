@@ -11,7 +11,7 @@ body {
   margin-right: auto;
   margin-top: 4%;
   margin-bottom: 4%;
-  background: transparent url(/jogo-fases/hercules/hercules-imagens/temple-of-hercules-gff33fdab8_1920.jpg);
+  background: transparent url(../imagens/img-hercules-introducao.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 7px solid rgb(0, 0, 0);
@@ -51,44 +51,37 @@ body {
   font-size: 2vw;
   text-align: justify;
 }
-.lista-opcoes {
-  display: flex;
-  width: 91%;
-  height: 17vh; 
-  margin-top: 2%;
-  margin-left: 9%;
-  background-color: black;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  font-size: 3vh;
-}
-.opcoes { 
-  width: 82%; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: justify;
-  color: white;
-}
 .botoes {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 14%;
+  margin-top: 21%;
 }
-.botao-decisao {
-  width: 20%;
+.botao-voltar {
+  width: 100%;
   line-height: 250%;
-  margin-right: 3%;
   border: none;
   border-bottom-right-radius: 400px;
   border-top-left-radius: 400px;
   text-transform: uppercase;
   cursor: pointer;
 }
-.link-botao-voltar {
+.botao-decisao {
+  width: 100%;
+  line-height: 250%;
+  border: none;
+  border-bottom-right-radius: 400px;
+  border-top-left-radius: 400px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.link-botao:first-child {
   width: 20%;
   margin-left: 3%;
+}
+.link-botao:last-child {
+  width: 20%;
+  margin-right: 3%;
 }
 .botao-estilo {
   background-color:white;
@@ -103,12 +96,4 @@ body {
   top: 4px;
   box-shadow: none;
 }
-.botao-voltar {
-  width: 100%;
-  line-height: 250%;
-  border: none;
-  border-bottom-right-radius: 400px;
-  border-top-left-radius: 400px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
+
