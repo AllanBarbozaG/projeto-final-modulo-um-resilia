@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.conteudo-principal-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  height: 80vh;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background: transparent url(/jogo-fases/hercules/hercules-imagens/temple-of-hercules-gff33fdab8_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 7px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
+}
+.sombra-imagem {
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(223, 213, 213, 0.623);
+  border-radius: 15px;
+}
+.texto-conteudo-principal-div h1  {
+  margin-top: 3%;
+  
+  text-align: center;
+}
+.texto-conteudo-principal-div h1, .paragrafo-contexto {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  font-size: 2vw;
+  text-align: justify;
+}
+.texto-conteudo-principal-div .paragrafo-contexto {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  font-size: 2vw;
+  text-align: justify;
+}
+.texto-conteudo-principal-div .paragrafo-tomar-decisao {
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  font-size: 2vw;
+  text-align: justify;
+}
+.lista-opcoes {
+  display: flex;
+  width: 91%;
+  height: 17vh; 
+  margin-top: 2%;
+  margin-left: 9%;
+  background-color: black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 3vh;
+}
+.opcoes { 
+  width: 82%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: justify;
+  color: white;
+}
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 14%;
+}
+.botao-decisao {
+  width: 20%;
+  line-height: 250%;
+  margin-right: 3%;
+  border: none;
+  border-bottom-right-radius: 400px;
+  border-top-left-radius: 400px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.link-botao-voltar {
+  width: 20%;
+  margin-left: 3%;
+}
+.botao-estilo {
+  background-color:white;
+  box-shadow: 0 5px 0 #8f8f8f;
+}
+.botao-estilo:hover {
+  background-color: #8f8f8f;
+  box-shadow: 0 5px 0 #7e7e7e;
+}
+.botao-estilo:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+.botao-voltar {
+  width: 100%;
+  line-height: 250%;
+  border: none;
+  border-bottom-right-radius: 400px;
+  border-top-left-radius: 400px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
