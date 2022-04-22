@@ -11,7 +11,7 @@ body {
   margin-top: 4%;
   margin-bottom: 4%;
   text-align: center;
-  background: transparent url(../imagens-ecolha-de-personagens/imagens-fundo/acropolis-gfde36d485_1920.jpg);
+  background: transparent url(../imagens/imagens-fundo/acropolis-gfde36d485_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 7px solid black;
@@ -61,7 +61,7 @@ body {
   height: 85%;
   border: none;
   cursor: pointer;
-  background-image: url(../imagens-ecolha-de-personagens/imagens-personagens/hercules.jpg);
+  background-image: url(../imagens/imagens-personagens/hercules.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -71,7 +71,7 @@ body {
   height: 85%;
   border: none;
   cursor: pointer;
-  background-image: url(../imagens-ecolha-de-personagens/imagens-personagens/hermes.jpg);
+  background-image: url(../imagens/imagens-personagens/hermes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -81,7 +81,7 @@ body {
   height: 85%;
   border: none;
   cursor: pointer;
-  background-image: url(../imagens-ecolha-de-personagens/imagens-personagens/medusa.jpg);
+  background-image: url(../imagens/imagens-personagens/medusa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

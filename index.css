@@ -17,13 +17,17 @@ body {
   border: 7px solid black;
   border-radius: 25px;
   box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
+  transition: 7s;
+}
+.conteudo-principal-div:hover {
+  box-shadow: 0px 0px 500px rgba(5, 155, 255, 0.911);
 }
 .sombra-imagem {
   width: 100%;
   height: 100%;
   background-color: black;
   border-radius: 15px;
-  transition: background 5s;
+  transition: background 8s;
 }
 .sombra-imagem:hover {
   background-color:  rgba(223, 213, 213, 0.603);
@@ -36,10 +40,12 @@ body {
   text-align: center;
 }
 .paragrafo-contexto {
+  display: flex;
+  flex-direction: column;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 2.5vw;
-  text-align: justify;
+  
   line-height: 130%;
 }
 .texto-conteudo-principal-div p {

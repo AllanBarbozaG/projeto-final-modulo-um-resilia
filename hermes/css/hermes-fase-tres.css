@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   border: 7px solid rgb(0, 0, 0);
   border-radius: 25px;
-  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788)
+  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
 }
 .sombra-imagem {
   width: 100%;
@@ -40,7 +40,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 2vw;
+  font-size: 1.7vw;
   text-align: justify;
 }
 .texto-conteudo-principal-div .paragrafo-tomar-decisao {
@@ -48,40 +48,47 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 2vw;
+  font-size: 1.7vw;
   text-align: justify;
+}
+.lista-opcoes {
+  display: flex;
+  width: 91%;
+  height: 17vh; 
+  margin-top: 2%;
+  margin-left: 9%;
+  background-color: black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 3vh;
+}
+.opcoes { 
+  width: 82%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: justify;
+  color: white;
 }
 .botoes {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 21%;
-}
-.botao-voltar {
-  width: 100%;
-  line-height: 250%;
-  border: none;
-  border-bottom-right-radius: 400px;
-  border-top-left-radius: 400px;
-  text-transform: uppercase;
-  cursor: pointer;
+  margin-top: 3.5%;
 }
 .botao-decisao {
-  width: 100%;
+  width: 20%;
   line-height: 250%;
+  margin-right: 3%;
   border: none;
   border-bottom-right-radius: 400px;
   border-top-left-radius: 400px;
   text-transform: uppercase;
   cursor: pointer;
 }
-.link-botao:first-child {
+.link-botao-voltar {
   width: 20%;
   margin-left: 3%;
-}
-.link-botao:last-child {
-  width: 20%;
-  margin-right: 3%;
 }
 .botao-estilo {
   background-color:white;
@@ -96,4 +103,12 @@ body {
   top: 4px;
   box-shadow: none;
 }
-
+.botao-voltar {
+  width: 100%;
+  line-height: 250%;
+  border: none;
+  border-bottom-right-radius: 400px;
+  border-top-left-radius: 400px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
