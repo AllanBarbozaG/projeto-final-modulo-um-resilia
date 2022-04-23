@@ -51,6 +51,12 @@ body {
   font-size: 1.7vw;
   text-align: justify;
 }
+.lista-e-botoes {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  justify-content: flex-end;
+}
 .lista-opcoes {
   display: flex;
   width: 91%;
@@ -74,7 +80,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 3.5%;
+  margin-top: 2%;
+  margin-bottom: 1.2%;
 }
 .botao-decisao {
   width: 20%;

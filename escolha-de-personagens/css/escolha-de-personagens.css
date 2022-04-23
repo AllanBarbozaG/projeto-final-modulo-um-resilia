@@ -105,14 +105,13 @@ body {
 }
 .link-botao-voltar {
   width: 20%;
-  margin-top: 2%;
   margin-left: 3%;
   margin-right: 77%;
 }
 .botao-voltar {
   width: 20%;
   line-height: 250%;
-  margin-top: 2%;
+  margin-top: 5.5%;
   border: none;
   border-bottom-right-radius: 400px;
   border-top-left-radius: 400px;
