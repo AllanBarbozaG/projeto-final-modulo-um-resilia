@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   border: 7px solid rgb(0, 0, 0);
   border-radius: 25px;
-  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
+  box-shadow: 0px 0px 150px rgb(251, 255, 0);
 }
 .sombra-imagem {
   width: 100%;
@@ -26,14 +26,16 @@ body {
 }
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
-  font-size: 250%;
-  text-align: center;
+  font-size: 2vw;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.texto-conteudo-principal-div h1, .paragrafo-contexto {
+.texto-conteudo-principal-div .paragrafo-contexto {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 2vw;
+  font-size: 3vh;
   text-align: justify;
 }
 .texto-conteudo-principal-div .paragrafo-tomar-decisao {
@@ -41,14 +43,13 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 2vw;
+  font-size: 3vh;
   text-align: justify;
 }
 .lista-opcoes {
   display: flex;
   width: 91%;
   height: 17vh; 
-  margin-top: 2%;
   margin-left: 9%;
   background-color: black;
   border-top-left-radius: 15px;

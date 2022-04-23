@@ -8,10 +8,10 @@ function validaEntrada() {
       decisao = prompt('Digite o número da decisao que deseja tomar');
     }
   } function redirecionaPagina() {
-    if (decisao == '1') {
-      window.location.assign("/hercules/html/hercules-fase-dois-game-over.html");
+    if (decisao == '2') {
+      window.location.assign("/medusa/html/medusa-fase-dois-game-over.html");
     } else {
-      window.location.assign("/hercules/html/hercules-fase-tres.html");
+      window.location.assign("/medusa/html/medusa-fase-dois-resposta-certa.html");
     }
   } redirecionaPagina();
 } 

@@ -42,13 +42,11 @@ body {
   font-size: 1.8vw;
   text-align: justify;
 }
-.texto-conteudo-principal-div .paragrafo-tomar-decisao {
-  margin-top: 0;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 0;
-  font-size: 1.8vw;
-  text-align: justify;
+.lista-e-botoes {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: flex-end;
 }
 .lista-opcoes {
   display: flex;
@@ -56,6 +54,7 @@ body {
   height: 17vh; 
   margin-top: 2%;
   margin-left: 9%;
+  margin-bottom: 2%;
   background-color: black;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -73,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 5.5%;
+  margin-bottom: 2%;
 }
 .botao-decisao {
   width: 20%;

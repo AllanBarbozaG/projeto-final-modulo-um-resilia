@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   border: 7px solid rgb(0, 0, 0);
   border-radius: 25px;
-  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788)
+  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
 }
 .sombra-imagem {
   width: 100%;
@@ -26,20 +26,21 @@ body {
 }
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
+  
   text-align: center;
 }
 .texto-conteudo-principal-div h1, .paragrafo-contexto {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 4vh;
+  font-size: 2vw;
   text-align: justify;
 }
 .texto-conteudo-principal-div .paragrafo-contexto {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
-  font-size: 3.2vh;
+  font-size: 2vw;
   text-align: justify;
 }
 .texto-conteudo-principal-div .paragrafo-tomar-decisao {
@@ -54,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 21%;
+  margin-top: 31.5%;
 }
 .botao-voltar {
   width: 100%;

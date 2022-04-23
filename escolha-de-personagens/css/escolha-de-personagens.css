@@ -47,7 +47,6 @@ body {
   text-decoration: none;
   width: 25%;
   height: 100%;
-  color: black;
   font-weight: 700;
   font-size: 110%;
 }
@@ -86,13 +85,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.botao-estilo:hover {
+  position: relative;
+  right:-5px;
+  bottom: -5px;
+  left: -5px;
+  top: -5px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
 .botao-estilo {
   border-style: solid;
-  box-shadow: 5px 5px 0 grey;
-}
-.botao-estilo:hover {
-  border-color: grey;
-  box-shadow: 5px 5px 0 #000000;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 .botao-estilo:active {
   position: relative;

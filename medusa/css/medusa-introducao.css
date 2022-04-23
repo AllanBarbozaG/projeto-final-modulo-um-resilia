@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
   border: 7px solid black;
   border-radius: 25px;
-  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788);
+  box-shadow: 0px 0px 150px rgba(255, 0, 0, 0.788)
 }
 .sombra-imagem {
   width: 100%;

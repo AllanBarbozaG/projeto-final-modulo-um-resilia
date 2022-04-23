@@ -9,9 +9,9 @@ function validaEntrada() {
     }
   } function redirecionaPagina() {
     if (decisao == '1') {
-      window.location.assign("/hercules/html/hercules-fase-tres-game-over.html");
+      window.location.assign("/medusa/html/medusa-fase-tres-game-over.html");
     } else {
-      window.location.assign("/hercules/html/hercules-final.html");
+      window.location.assign("/medusa/html/medusa-final.html");
     }
   } redirecionaPagina();
 } 
