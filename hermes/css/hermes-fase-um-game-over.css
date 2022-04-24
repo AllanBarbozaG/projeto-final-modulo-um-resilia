@@ -29,9 +29,12 @@ body {
 }
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
-  text-align: center;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 5vh;
 }
-.texto-conteudo-principal-div h1, .paragrafo-contexto {
+.texto-conteudo-principal-div .paragrafo-contexto {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
