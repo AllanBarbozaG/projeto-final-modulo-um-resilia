@@ -24,6 +24,9 @@ body {
   background-color: rgba(223, 213, 213, 0.603);
   border-radius: 15px;
 }
+.texto-conteudo-principal-div {
+  height: 80%;
+}
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
   font-size: 250%;
@@ -44,7 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 12.4%;
+  height: 17%;
 }
 .botao-voltar {
   width: 100%;
@@ -63,6 +66,9 @@ body {
   border-top-left-radius: 400px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.link-botao {
+  margin-top: 4%;
 }
 .link-botao:first-child {
   width: 20%;
