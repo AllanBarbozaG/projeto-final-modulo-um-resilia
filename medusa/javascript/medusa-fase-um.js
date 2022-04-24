@@ -9,9 +9,9 @@ function validaEntrada() {
     }
   } function redirecionaPagina() {
     if (decisao == '1') {
-      window.location.assign("/medusa/html/medusa-fase-um-game-over.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/medusa/html/medusa-fase-um-game-over.html");
     } else {
-      window.location.assign("/medusa/html/medusa-fase-um-resposta-certa.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/medusa/html/medusa-fase-um-resposta-certa.html");
     }
   } redirecionaPagina();
 } 

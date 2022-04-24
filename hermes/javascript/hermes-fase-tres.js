@@ -9,9 +9,9 @@ function validaEntrada() {
     }
   } function redirecionaPagina() {
     if (decisao == '1') {
-      window.location.assign("/hermes/html/hermes-fase-tres-game-over.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/hermes/html/hermes-fase-tres-game-over.html");
     } else {
-      window.location.assign("/hermes/html/hermes-final.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/hermes/html/hermes-final.html");
     }
   } redirecionaPagina();
 } 
