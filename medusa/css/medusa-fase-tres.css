@@ -24,6 +24,9 @@ body {
   background-color:  rgba(223, 213, 213, 0.623);
   border-radius: 15px;
 }
+.texto-conteudo-principal-div {
+  height: 65%;
+}
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
   margin-left: 10%;
@@ -49,7 +52,7 @@ body {
 .lista-e-botoes {
   display: flex;
   flex-direction: column;
-  height: 29vh;
+  height: 34%;
   justify-content: flex-end;
 }
 .lista-opcoes {
@@ -76,7 +79,7 @@ body {
   justify-content: space-between;
   width: 100%;
   margin-top: 2%;
-  margin-bottom: 1.55%;
+  margin-bottom: 3.39%;
 }
 .botao-decisao {
   width: 20%;
