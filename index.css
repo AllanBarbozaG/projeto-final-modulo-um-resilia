@@ -32,6 +32,9 @@ body {
 .sombra-imagem:hover {
   background-color:  rgba(223, 213, 213, 0.603);
 }
+.texto-conteudo-principal-div {
+  height: 80%;
+}
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
   font-size: 250%;
@@ -49,10 +52,13 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+.botao-div {
+  height: 17%;
+}
 .botao {
   width: 20%;
   line-height: 250%;
-  margin-top: 7%;
+  margin-top: 4%;
   margin-left: 77%;
   margin-right: 3%;
   border: none;
