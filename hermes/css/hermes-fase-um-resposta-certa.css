@@ -24,16 +24,16 @@ body {
   background-color:  rgba(223, 213, 213, 0.623);
   border-radius: 15px;
 }
+.texto-conteudo-principal-div {
+  height: 80%;
+}
 .texto-conteudo-principal-div h1  {
   margin-top: 3%;
   text-align: center;
-}
-.texto-conteudo-principal-div h1, .paragrafo-contexto {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 0;
-  font-size: 2vw;
   text-align: justify;
+  font-size: 5vh;
 }
 .texto-conteudo-principal-div .paragrafo-contexto {
   margin-left: 10%;
@@ -54,7 +54,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 34.53%;
+  height: 17%;
+  margin-top: 4%;
 }
 .botao-voltar {
   width: 100%;
