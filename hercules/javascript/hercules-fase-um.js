@@ -9,9 +9,9 @@ function validaEntrada() {
     }
   } function redirecionaPagina() {
     if (decisao == '1') {
-      window.location.assign("/hercules/html/hercules-fase-um-game-over.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/hercules/html/hercules-fase-um-game-over.html");
     } else {
-      window.location.assign("/hercules/html/hercules-fase-dois.html");
+      window.location.assign("/projeto-final-modulo-um-resilia/hercules/html/hercules-fase-dois.html");
     }
   } redirecionaPagina();
 } 
