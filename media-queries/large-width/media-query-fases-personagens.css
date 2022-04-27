@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+  
+  .conteudo-principal-div {
+    width: 95%;
+    height: auto;
+    margin-top: 2.5%;
+  }
+  .texto-conteudo-principal-div {
+    text-align: center;
+  }
+  .texto-conteudo-principal-div h1 {
+    font-size: 6vh;
+  }
+  .texto-conteudo-principal-div p {
+    font-size: 4.5vh;
+  }
+}
