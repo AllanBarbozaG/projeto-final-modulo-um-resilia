@@ -46,11 +46,12 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 2.5vw;
-  line-height: 130%;
+  
 }
 .texto-conteudo-principal-div p {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 0;
 }
 .botao-div {
   height: 17%;
@@ -81,5 +82,65 @@ body {
   box-shadow: none;
 }
 
+/*Parte mobile*/
 
+@media screen and (max-width: 1200px) and (min-width: 540px) {
+  
+  .conteudo-principal-div {
+    width: 95%;
+    height: 90vh;
+    margin-top: 2.5%;
+  }
+  .texto-conteudo-principal-div h1 {
+    font-size: 6vh;
+  }
+  .texto-conteudo-principal-div p {
+    font-size: 4.5vh;
+  }
+  .texto-conteudo-principal-div p:nth-child(2) {
+    margin-top: 15%;
+  }
+  .botao-div {
+    height: 10%;
+  }
+  .botao { 
+    margin-top: 5%;
+  } 
+  .paragrafo-contexto {
+    text-align:left;
+    font-size: 3vh;
+    color: white;
+    margin-top: 0%;
+    margin-top: 1%;
+  }
+}
+
+@media screen and (max-width: 539px) and (min-width: 280px) {
+
+  .conteudo-principal-div {
+    width: 95%;
+    height: 90vh;
+    margin-top: 5%;
+    background-position-x: center;
+  }
+  .texto-conteudo-principal-div p {
+    font-size: 3.5vh;
+  }
+  .texto-conteudo-principal-div p:nth-child(2) {
+    margin-top: 25%;
+  }
+  .botao-div {
+    height: 10%;
+  }
+  .botao { 
+    margin-top: 15%;
+  } 
+  .paragrafo-contexto {
+    text-align:left;
+    font-size: 2.5vh;
+    color: white;
+    margin-top: 0%;
+    margin-top: 6%;
+  }
+}
   

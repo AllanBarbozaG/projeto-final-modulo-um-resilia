@@ -1,0 +1,48 @@
+@media screen and (max-width: 539px) and (min-width: 280px) {
+
+  .conteudo-principal-div {
+    width: 95%;
+    height: auto;
+    margin-top: 5%;
+    background-position-x: center;
+  }
+  .texto-conteudo-principal-div {
+    text-align: center;
+  }
+  .texto-conteudo-principal-div h1 {
+    font-size: 6vh;
+  }
+  .texto-conteudo-principal-div p {
+    font-size: 3.5vh;
+  }  
+  .botao-div {
+    height: 10%;
+  }
+  .botao { 
+    margin-top: 15%;
+  } 
+  .botao-proximo {
+    width: 100%;
+    border: none;
+    border-bottom-right-radius: 400px;
+    border-top-left-radius: 400px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 85%;
+    margin-bottom: 30%;
+    font-weight: bolder;
+  }
+  .botao-voltar {
+    width: 100%;
+    border: none;
+    border-bottom-right-radius: 400px;
+    border-top-left-radius: 400px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 85%;
+    margin-bottom: 30%;
+    font-weight: bolder;
+  }
+  
+}
+  
