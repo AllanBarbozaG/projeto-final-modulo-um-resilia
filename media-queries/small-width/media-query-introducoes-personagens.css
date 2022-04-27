@@ -15,6 +15,9 @@
   .texto-conteudo-principal-div p {
     font-size: 3.5vh;
   }  
+  .paragrafo-contexto {
+    font-size: 4vh;
+  }
   .botao-div {
     height: 10%;
   }
