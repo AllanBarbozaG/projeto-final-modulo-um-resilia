@@ -41,17 +41,19 @@ body {
   text-align: center;
 }
 .paragrafo-contexto {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 2.5vw;
-  
+  text-align: center;
+  font-size: 2vh;
+  color: white;
+  margin-bottom: 15%;
 }
 .texto-conteudo-principal-div p {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0;
+  font-size: 4.5vh;
+}
+.texto-conteudo-principal-div p:nth-child(2) {
+  margin-top: 10%;
 }
 .botao-div {
   height: 17%;
