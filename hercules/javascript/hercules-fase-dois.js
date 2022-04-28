@@ -2,7 +2,7 @@ function validaEntrada() {
   var decisao = prompt('Digite o número da decisão que deseja tomar (1 ou 2)');
   while(true) {
     if (decisao == 1 || decisao == 2) {
-      redirecionaPagina()
+      redirecionaPagina(decisao)
       break;
     } else {
       alert('Decisão inválida. Digite 1 ou 2');
@@ -20,6 +20,7 @@ function redirecionaPagina(decisao) {
 } 
 
 /* Segunda versão do código
+
 function validaEntrada() {
   var decisao = prompt('Digite o número da decisão que deseja tomar (1 ou 2)');
   while(true) {
