@@ -7,9 +7,11 @@ Projeto de conclusão do Módulo 1 do curso de web. dev. da Resilia Educação
 
 ## 📁 Acesso ao projeto
 
-**Você pode acessar diretamente o projeto através do link: https://allanbarbozag.github.io/projeto-final-modulo-um-resilia/;
-Para baixá-lo, acesse: https://github.com/AllanBarbozaG/projeto-final-modulo-um-resilia**
+Você pode acessar diretamente o projeto através do link: https://allanbarbozag.github.io/projeto-final-modulo-um-resilia/;
+Para baixá-lo, acesse: https://github.com/AllanBarbozaG/projeto-final-modulo-um-resilia
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Abrir e executar o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+Depois de baixar o projeto, você pode abri-lo com o Visual Studio Code: 
+
+- aa
