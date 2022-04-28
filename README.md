@@ -20,3 +20,7 @@ Depois de baixar o projeto, você pode abri-lo e modificá-lo com o Visual Studi
 - Para executar o projeto basta procurar pelo arquivo index.html e iniciá-lo no navegador de sua preferência.
 
 #  :point_right: Tecnologias Utilizadas
+
+- HTML5 
+- CSS3
+- JavaScript ES6
