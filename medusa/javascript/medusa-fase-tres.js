@@ -17,7 +17,7 @@ function redirecionaPagina(decisao) {
   } else {
     window.location.assign("/projeto-final-modulo-um-resilia/medusa/html/medusa-final.html");
   }
-} redirecionaPagina();
+}
 
 
 
