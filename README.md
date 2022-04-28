@@ -27,7 +27,5 @@ Depois de baixar o projeto, você pode abri-lo e modificá-lo com o Visual Studi
 
 ## Autores
 
-## Autores
-
 | <p>Allan Barboza</p> | <p>Bianca Fausto</p> | <p>Gabriel Christ</p> | <p>Renato Negrelly</p> | 
 | :---: | :---: | :---: |:---: |
